@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		0284961FC1EA940A78EA6FD6 /* Pods_TwitSplit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C380048838C88CD68C30869 /* Pods_TwitSplit.framework */; };
 		0DC511DC21F037A300BB2D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC511DB21F037A300BB2D71 /* AppDelegate.swift */; };
-		0DC511E121F037A300BB2D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC511DF21F037A300BB2D71 /* Main.storyboard */; };
+		0DC511E121F037A300BB2D71 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC511DF21F037A300BB2D71 /* Home.storyboard */; };
 		0DC511E321F037A800BB2D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC511E221F037A800BB2D71 /* Assets.xcassets */; };
 		0DC511E621F037A800BB2D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC511E421F037A800BB2D71 /* LaunchScreen.storyboard */; };
 		0DC511F121F037A900BB2D71 /* TwitSplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC511F021F037A900BB2D71 /* TwitSplitTests.swift */; };
@@ -18,6 +18,7 @@
 		0DC5120821F2E30000BB2D71 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5120721F2E30000BB2D71 /* HomeViewController.swift */; };
 		0DC5120C21F2E3CD00BB2D71 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5120B21F2E3CD00BB2D71 /* HomeTableViewCell.swift */; };
 		0DC5120F21F2F63200BB2D71 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5120E21F2F63200BB2D71 /* TabBarViewController.swift */; };
+		0DC5121121F2FCDB00BB2D71 /* NewTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5121021F2FCDB00BB2D71 /* NewTweetViewController.swift */; };
 		A8D7D5B0482892FBA698BE89 /* Pods_TwitSplitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3DA43C792B4E9EFCB5CAF /* Pods_TwitSplitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +35,7 @@
 /* Begin PBXFileReference section */
 		0DC511D821F037A300BB2D71 /* TwitSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC511DB21F037A300BB2D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DC511E021F037A300BB2D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DC511E021F037A300BB2D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		0DC511E221F037A800BB2D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DC511E521F037A800BB2D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DC511E721F037A800BB2D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +47,7 @@
 		0DC5120721F2E30000BB2D71 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		0DC5120B21F2E3CD00BB2D71 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		0DC5120E21F2F63200BB2D71 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0DC5121021F2FCDB00BB2D71 /* NewTweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetViewController.swift; sourceTree = "<group>"; };
 		3EC7DAF8BA8C5088EA90532E /* Pods-TwitSplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplitTests/Pods-TwitSplitTests.release.xcconfig"; sourceTree = "<group>"; };
 		43ECF2F028940B0F3EC2AE7C /* Pods-TwitSplitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplitTests/Pods-TwitSplitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46C19FEA9BCB00351DC96D8C /* Pods-TwitSplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,7 +138,7 @@
 		0DC511FD21F0478D00BB2D71 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				0DC511DF21F037A300BB2D71 /* Main.storyboard */,
+				0DC511DF21F037A300BB2D71 /* Home.storyboard */,
 				0DC511E421F037A800BB2D71 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
@@ -180,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				0DC5120721F2E30000BB2D71 /* HomeViewController.swift */,
+				0DC5121021F2FCDB00BB2D71 /* NewTweetViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -314,7 +317,7 @@
 			files = (
 				0DC511E621F037A800BB2D71 /* LaunchScreen.storyboard in Resources */,
 				0DC511E321F037A800BB2D71 /* Assets.xcassets in Resources */,
-				0DC511E121F037A300BB2D71 /* Main.storyboard in Resources */,
+				0DC511E121F037A300BB2D71 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,10 +374,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FaveButton/FaveButton.framework",
 				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaveButton.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +396,7 @@
 			files = (
 				0DC511DC21F037A300BB2D71 /* AppDelegate.swift in Sources */,
 				0DC5120C21F2E3CD00BB2D71 /* HomeTableViewCell.swift in Sources */,
+				0DC5121121F2FCDB00BB2D71 /* NewTweetViewController.swift in Sources */,
 				0DC5120321F0486B00BB2D71 /* Extensions.swift in Sources */,
 				0DC5120521F048FA00BB2D71 /* Constants.swift in Sources */,
 				0DC5120F21F2F63200BB2D71 /* TabBarViewController.swift in Sources */,
@@ -417,12 +423,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0DC511DF21F037A300BB2D71 /* Main.storyboard */ = {
+		0DC511DF21F037A300BB2D71 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				0DC511E021F037A300BB2D71 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		0DC511E421F037A800BB2D71 /* LaunchScreen.storyboard */ = {

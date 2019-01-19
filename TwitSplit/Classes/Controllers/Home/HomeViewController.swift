@@ -13,6 +13,8 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
+    var dataSource: [String] = []
+    
     // MARK: - Instance
     static func getInstance() -> HomeViewController {
         let sb = UIStoryboard.init(name: Constants.Storyboard.home, bundle: nil)
@@ -32,13 +34,20 @@ class HomeViewController: UIViewController {
     func initUI() {
         
     }
+    
+    // MARK: - Actions
+    @IBAction func newTweetAction(_ sender: Any) {
+        let vc = NewTweetViewController.getInstance()
+        vc.delegate = self
+        self.present(vc, animated: true, completion: nil)
+    }
 
 }
 
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return 5
+        return dataSource.count
         
     }
     
@@ -48,13 +57,25 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         
         cell.nameLbl.text = "Hizami"
         cell.hashtagNameLbl.text = "@hizameey"
-        cell.messageLbl.text = "hello hai im Mohammad Norhizami, the magic monkey that solve your problem. hello hai im Mohammad Norhizami, the magic monkey that solve your problem. hello hai im Mohammad Norhizami, the magic monkey that solve your problem. hello hai im Mohammad Norhizami, the magic monkey that solve your problem."
+        cell.messageLbl.text = dataSource[indexPath.row]
         
         cell.mainIV.image = UIImage(named: "default_profile")
         
         return cell
     }
     
+    
+    
+}
+
+extension HomeViewController: NewTweetDelegate {
+    func passDataFromNewTweetDelegate(data: [String]) {
+        for item in data {
+            dataSource.insert(item, at: 0)
+        }
+        
+        self.tableView.reloadData()
+    }
     
     
 }

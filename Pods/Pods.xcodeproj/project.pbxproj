@@ -7,95 +7,112 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		153847F5BC1BC987222EC2AF5C7C9BC3 /* RevealingSplashView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C93662F24725ABE0E8A668F5A69F22 /* RevealingSplashView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A25E969A968035642294992E2956602 /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */; };
-		2A9418D20FA95B6699D34BFE89AECF1C /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */; };
-		4A91F8F2D47B63CCB3B63384B3DB1B6B /* SplashAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */; };
-		4FD1016155A05AE7957B98ADBDC9CE84 /* RevealingSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64A137A878A81C79BE1BFF89794D2D6A /* Pods-TwitSplit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ED657F84CC490A5E27098D944EA596 /* Pods-TwitSplit-dummy.m */; };
-		720C1A00C092003AD7D805E15D864F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		054F36C6F3EA414AA7D819E99715E7F8 /* Pods-TwitSplit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25159AB13FEE58572EF797A91FDA5A7F /* Pods-TwitSplit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F79A4A36D42D3BA5AE6DBB3467B09E1 /* RevealingSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89D97A734F226712C5953EDB1118E5A2 /* RevealingSplashView-dummy.m */; };
+		11231EDF58D9715E48688041F5775F35 /* Constraints+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65348743C76B8F4ADED4D68B5A99F2D8 /* Constraints+.swift */; };
+		14C96683865769F6CA419276A30B1AEB /* FaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9064303D344A9E9B6154662FDFD4EA82 /* FaveButton.swift */; };
+		19D6E2B96C7229DCCC4017CAEDE8F9FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		1FB70CB9F38313F0CA9E8D0CAE765AF8 /* FaveButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FFD9D9D3C9DC148E8F00E36BCB4615 /* FaveButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36665F9CC301DA708DE1222320BD1E4A /* FaveButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E14111B81F0A81E261A25D45AD2FE24F /* FaveButton-dummy.m */; };
+		4901595D3B2FE67D3AF80D9F67E3BF60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		4ED6912108F965CE8FEC2E8AB56CA38C /* RevealingSplashView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A32EA6CCB1FD3C5A42EA30F831D5FF /* RevealingSplashView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		531408BF6C209461B4C07FFE7312E0F3 /* FaveIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9407FBD539344E63635858F27BDAA1E2 /* FaveIcon.swift */; };
+		5C2D12B5A0AE0132C86594FFD4561D6E /* SplashAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123510546F209E8254AE09DDF701546B /* SplashAnimationType.swift */; };
+		5CC04A5794C0438D6B9B778438210144 /* Pods-TwitSplit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ED657F84CC490A5E27098D944EA596 /* Pods-TwitSplit-dummy.m */; };
+		5EF4F8BE943AC89E53090B7F0E03EED6 /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA78C5C1C3F828A79098C4514EA19FF2 /* Spark.swift */; };
+		65E7CE87E0E31360500C4920F0580C08 /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B37E059C15F0463A1DA44EF9034614B /* SplashAnimatable.swift */; };
 		75A244E753C3B4956CE838FA3FB591F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		85FEBA1BC29803256B64BA14C1BED5BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		8F62A345511DDCF559D8550D529989E3 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */; };
-		A1C6D21AED4A3CD3082D1488A9F3DDD9 /* Pods-TwitSplit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25159AB13FEE58572EF797A91FDA5A7F /* Pods-TwitSplit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1E687A05A32CD17261A89A420B0FF1C /* Pods-TwitSplitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DAB38708F9F435DC11377FA79177B6 /* Pods-TwitSplitTests-dummy.m */; };
-		DAC841DA214EA26C1BEA7EE2BD92A4BC /* RevealingSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D681A8C56799B4587C4B71184D93AB /* RevealingSplashView-dummy.m */; };
+		C57371AD4BBBE9FA5CBC57C151D9D0BE /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FDAAA784C7C23F1F52CCB90C9AD3A4 /* Easing.swift */; };
+		C805D68C3BB432BE3167FF29D5B99348 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1644F703EB0801FFDF3201AED65FB22 /* Animations.swift */; };
+		CCD75EC4E07A79C410172562C861289D /* RevealingSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = 108516CD1BCB48039873790547C701B3 /* RevealingSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD17F739B45D4CF59EC659DF78F6BDB9 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D1B51B2AE97624696CEA48DBA7CE268 /* Ring.swift */; };
+		CDB1BAFEAB814C169438ED5DDFEEAB76 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089F24BCCC59921656DE489751AEA2F2 /* Geometry.swift */; };
+		D239CF1430DFAE127003FEBA8CB5765E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E7429B642F62D3F2F63A90887DEBDC12 /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5FB2504FCEA4058ED6DAF7A819861A /* Init.swift */; };
+		F064936F6DD28B943B37515419DA7DCC /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE0627072F251447B0BCA391AFEFE0D /* RevealingSplashView.swift */; };
 		FECFE89EC203D262A83EBCF6F8369D0A /* Pods-TwitSplitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2624BEA36B1650340D836027792415 /* Pods-TwitSplitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		32EF8394F5EA71BD9D4719D25AF13FE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88EE6AAFF13B97E6ACEACFA863227BE7;
+			remoteInfo = RevealingSplashView;
+		};
 		3829C05EB016597DF54E8599CCA60270 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FF84DEB9962CA8DBA09A06FB8263E9B9;
+			remoteGlobalIDString = D9D4F802B3D8B5D49D88E7E3B5488823;
 			remoteInfo = "Pods-TwitSplit";
 		};
-		A3382D35F95D181208AFAA8B7FD21E38 /* PBXContainerItemProxy */ = {
+		6ABE1B6AD1C439C20C012A16AC95AF7F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F7D6DFCD1AD65DB01A005678AC9E2517;
-			remoteInfo = RevealingSplashView;
+			remoteGlobalIDString = 7C08227B6E14D87F0F5B0FD6DFFA1A3E;
+			remoteInfo = FaveButton;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01086F823C4951ED5239A5FDBD8E4997 /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
-		1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.xcconfig; sourceTree = "<group>"; };
+		089F24BCCC59921656DE489751AEA2F2 /* Geometry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Geometry.swift; path = Source/Helpers/Geometry.swift; sourceTree = "<group>"; };
+		108516CD1BCB48039873790547C701B3 /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
+		123510546F209E8254AE09DDF701546B /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
 		19491CDA17CA4D32AED29FEE5DD0B689 /* Pods-TwitSplitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitSplitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
-		24D681A8C56799B4587C4B71184D93AB /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
+		19DC7CD38EA29F8D3BACC1BA71E08B89 /* Pods_TwitSplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitSplitTests.framework; path = "Pods-TwitSplitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		25159AB13FEE58572EF797A91FDA5A7F /* Pods-TwitSplit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitSplit-umbrella.h"; sourceTree = "<group>"; };
 		25DAB38708F9F435DC11377FA79177B6 /* Pods-TwitSplitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitSplitTests-dummy.m"; sourceTree = "<group>"; };
 		2C743BCA5982A9DEF97C0E0D50E158F1 /* Pods-TwitSplit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitSplit.modulemap"; sourceTree = "<group>"; };
+		2CE0627072F251447B0BCA391AFEFE0D /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
 		2D3443352BDD50252446F7B5A457072C /* Pods-TwitSplit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitSplit-frameworks.sh"; sourceTree = "<group>"; };
-		34C93662F24725ABE0E8A668F5A69F22 /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
+		2E5E266BCCFA8809351281691B4D26CA /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
+		2FBBB2ECA90E5E87C8645947629465B8 /* RevealingSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.xcconfig; sourceTree = "<group>"; };
+		3B37E059C15F0463A1DA44EF9034614B /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
 		3D6928528D9DCEF8034CDA84DDE8CA42 /* Pods-TwitSplit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitSplit-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C6A0E5AC6C1892309B9B8572519839D /* FaveButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaveButton-prefix.pch"; sourceTree = "<group>"; };
 		4D336951683562182FD09C03F32EA7B7 /* Pods-TwitSplitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitSplitTests-resources.sh"; sourceTree = "<group>"; };
 		59A062FFBC1DA6A905596D40843269E1 /* Pods-TwitSplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitSplitTests.release.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A4EF772FC1FD14C1043E5DB4CD7AC61 /* Pods-TwitSplitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitSplitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C2624BEA36B1650340D836027792415 /* Pods-TwitSplitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitSplitTests-umbrella.h"; sourceTree = "<group>"; };
+		5D1B51B2AE97624696CEA48DBA7CE268 /* Ring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ring.swift; path = Source/Ring.swift; sourceTree = "<group>"; };
+		65348743C76B8F4ADED4D68B5A99F2D8 /* Constraints+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Constraints+.swift"; path = "Source/Helpers/Constraints+.swift"; sourceTree = "<group>"; };
+		66378AD8BB04AC93505A415CC0E267A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		705E20C01B2BF995D750F091EC6F30B3 /* Pods_TwitSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitSplit.framework; path = "Pods-TwitSplit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71642534ED480B64D33ABFF2669F9049 /* Pods-TwitSplit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitSplit-resources.sh"; sourceTree = "<group>"; };
-		8734D4FE66E58214B374BD0E5417703A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89D97A734F226712C5953EDB1118E5A2 /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
 		8A50FC82930636FE6C812568DE776A30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92971885CEC67A0881B5F320BD773455 /* Pods_TwitSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitSplit.framework; path = "Pods-TwitSplit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9064303D344A9E9B6154662FDFD4EA82 /* FaveButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FaveButton.swift; path = Source/FaveButton.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
-		A3C220E3899429FCE3799E4B2EE15F58 /* Pods_TwitSplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitSplitTests.framework; path = "Pods-TwitSplitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9407FBD539344E63635858F27BDAA1E2 /* FaveIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FaveIcon.swift; path = Source/FaveIcon.swift; sourceTree = "<group>"; };
+		9C2265E16E2FD284B1DE56A09CF0C260 /* FaveButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaveButton.xcconfig; sourceTree = "<group>"; };
+		9F9AF4556F89F5E2BCA3AB436D9701CC /* FaveButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FaveButton.modulemap; sourceTree = "<group>"; };
+		A7A32EA6CCB1FD3C5A42EA30F831D5FF /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
 		A9ED657F84CC490A5E27098D944EA596 /* Pods-TwitSplit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitSplit-dummy.m"; sourceTree = "<group>"; };
 		AC18082C8513F09526E67C2124CAA67B /* Pods-TwitSplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitSplit.debug.xcconfig"; sourceTree = "<group>"; };
+		B1BA97D404C680204FA029D8DFD5C0B3 /* FaveButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FaveButton.framework; path = FaveButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FDAAA784C7C23F1F52CCB90C9AD3A4 /* Easing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Easing.swift; path = Source/Helpers/Easing.swift; sourceTree = "<group>"; };
+		B5FFD9D9D3C9DC148E8F00E36BCB4615 /* FaveButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FaveButton-umbrella.h"; sourceTree = "<group>"; };
+		B84A289FEBE44C09398A691CEDB01ECF /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
 		BC78C6065C473E24E6E9D18BC1D28C88 /* Pods-TwitSplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitSplit.release.xcconfig"; sourceTree = "<group>"; };
-		BD04EDFC249D44E9077F401342E8A340 /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
-		C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animations.swift; path = RevealingSplashView/Animations.swift; sourceTree = "<group>"; };
-		D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
+		CC5FB2504FCEA4058ED6DAF7A819861A /* Init.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Init.swift; path = Source/Helpers/Init.swift; sourceTree = "<group>"; };
+		D1644F703EB0801FFDF3201AED65FB22 /* Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animations.swift; path = RevealingSplashView/Animations.swift; sourceTree = "<group>"; };
+		D606FD3F0F9CADFEAD9233393D18AEF8 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevealingSplashView.framework; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D61C3D553480B6B6BD7A4F7342B23265 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14111B81F0A81E261A25D45AD2FE24F /* FaveButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FaveButton-dummy.m"; sourceTree = "<group>"; };
 		E7E74F098839A4C8863D893EFAB45B1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8215073FFBCC9C17DA177E01CD49247 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevealingSplashView.framework; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA469B803EB6B61ABC418F05202600BE /* Pods-TwitSplitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitSplitTests.modulemap"; sourceTree = "<group>"; };
-		ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
+		EA78C5C1C3F828A79098C4514EA19FF2 /* Spark.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spark.swift; path = Source/Spark.swift; sourceTree = "<group>"; };
 		EF14DBC3638FEBC3FFF74CACE7CC973C /* Pods-TwitSplitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitSplitTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F799D4FEBB3FA362926EF65D5041A4F5 /* Pods-TwitSplit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitSplit-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F9B08CACB929001C31DD092755CD160C /* Pods-TwitSplitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitSplitTests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		127D0DE1F7C2C1A26680281D84B363D2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				85FEBA1BC29803256B64BA14C1BED5BB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F7EE0F7CADF2DC5CF8C8FCBF26F4E29 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				720C1A00C092003AD7D805E15D864F37 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		37065F11515C33FA2CC0FA893A48CA78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,21 +121,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7F546708A87620B8BF962A19E7EFA1CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D239CF1430DFAE127003FEBA8CB5765E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849B192264D40FCAAEA0726259485A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4901595D3B2FE67D3AF80D9F67E3BF60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4AABADD637DCFF7421E1675ED73A6BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D6E2B96C7229DCCC4017CAEDE8F9FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0054B4167ECF9B4D249AE71E99E94715 /* Support Files */ = {
+		18287D5B04D540177763F95A0A535524 /* RevealingSplashView */ = {
 			isa = PBXGroup;
 			children = (
-				8734D4FE66E58214B374BD0E5417703A /* Info.plist */,
-				BD04EDFC249D44E9077F401342E8A340 /* RevealingSplashView.modulemap */,
-				1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */,
-				24D681A8C56799B4587C4B71184D93AB /* RevealingSplashView-dummy.m */,
-				01086F823C4951ED5239A5FDBD8E4997 /* RevealingSplashView-prefix.pch */,
-				34C93662F24725ABE0E8A668F5A69F22 /* RevealingSplashView-umbrella.h */,
+				D1644F703EB0801FFDF3201AED65FB22 /* Animations.swift */,
+				108516CD1BCB48039873790547C701B3 /* RevealingSplashView.h */,
+				2CE0627072F251447B0BCA391AFEFE0D /* RevealingSplashView.swift */,
+				3B37E059C15F0463A1DA44EF9034614B /* SplashAnimatable.swift */,
+				123510546F209E8254AE09DDF701546B /* SplashAnimationType.swift */,
+				546EB92559685E07F0CBA8BF617FCE4B /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/RevealingSplashView";
+			name = RevealingSplashView;
+			path = RevealingSplashView;
 			sourceTree = "<group>";
 		};
 		23BB3881EEB8B8F19F63CBD9ABCC1DBD /* Targets Support Files */ = {
@@ -128,6 +169,23 @@
 				62473F3AEFD0F0301327E2933A01261C /* Pods-TwitSplitTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31860668CC7F29CC30100D125AA7C190 /* FaveButton */ = {
+			isa = PBXGroup;
+			children = (
+				65348743C76B8F4ADED4D68B5A99F2D8 /* Constraints+.swift */,
+				B5FDAAA784C7C23F1F52CCB90C9AD3A4 /* Easing.swift */,
+				9064303D344A9E9B6154662FDFD4EA82 /* FaveButton.swift */,
+				9407FBD539344E63635858F27BDAA1E2 /* FaveIcon.swift */,
+				089F24BCCC59921656DE489751AEA2F2 /* Geometry.swift */,
+				CC5FB2504FCEA4058ED6DAF7A819861A /* Init.swift */,
+				5D1B51B2AE97624696CEA48DBA7CE268 /* Ring.swift */,
+				EA78C5C1C3F828A79098C4514EA19FF2 /* Spark.swift */,
+				D5DF4E9618CC76F3F5E0A012B56C9E9B /* Support Files */,
+			);
+			name = FaveButton;
+			path = FaveButton;
 			sourceTree = "<group>";
 		};
 		38F08277C9DD2E7EA66124328CC82B84 /* Pods-TwitSplit */ = {
@@ -148,14 +206,27 @@
 			path = "Target Support Files/Pods-TwitSplit";
 			sourceTree = "<group>";
 		};
-		563C016C2F42DAB02CFAD2474CF77FB5 /* Products */ = {
+		3DFE0CBF1618F2FCACF53872CDAA568E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				92971885CEC67A0881B5F320BD773455 /* Pods_TwitSplit.framework */,
-				A3C220E3899429FCE3799E4B2EE15F58 /* Pods_TwitSplitTests.framework */,
-				E8215073FFBCC9C17DA177E01CD49247 /* RevealingSplashView.framework */,
+				31860668CC7F29CC30100D125AA7C190 /* FaveButton */,
+				18287D5B04D540177763F95A0A535524 /* RevealingSplashView */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		546EB92559685E07F0CBA8BF617FCE4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66378AD8BB04AC93505A415CC0E267A9 /* Info.plist */,
+				2E5E266BCCFA8809351281691B4D26CA /* RevealingSplashView.modulemap */,
+				2FBBB2ECA90E5E87C8645947629465B8 /* RevealingSplashView.xcconfig */,
+				89D97A734F226712C5953EDB1118E5A2 /* RevealingSplashView-dummy.m */,
+				B84A289FEBE44C09398A691CEDB01ECF /* RevealingSplashView-prefix.pch */,
+				A7A32EA6CCB1FD3C5A42EA30F831D5FF /* RevealingSplashView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RevealingSplashView";
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -189,10 +260,21 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D91FEAE70316EE8A91F65526A35FC97E /* Pods */,
-				563C016C2F42DAB02CFAD2474CF77FB5 /* Products */,
+				3DFE0CBF1618F2FCACF53872CDAA568E /* Pods */,
+				9BEDD731C2383F3A9CED65C17CD064B2 /* Products */,
 				23BB3881EEB8B8F19F63CBD9ABCC1DBD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9BEDD731C2383F3A9CED65C17CD064B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1BA97D404C680204FA029D8DFD5C0B3 /* FaveButton.framework */,
+				705E20C01B2BF995D750F091EC6F30B3 /* Pods_TwitSplit.framework */,
+				19DC7CD38EA29F8D3BACC1BA71E08B89 /* Pods_TwitSplitTests.framework */,
+				D606FD3F0F9CADFEAD9233393D18AEF8 /* RevealingSplashView.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -203,31 +285,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D91FEAE70316EE8A91F65526A35FC97E /* Pods */ = {
+		D5DF4E9618CC76F3F5E0A012B56C9E9B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F49326C7ED01A06909FA8868635BEE71 /* RevealingSplashView */,
+				9F9AF4556F89F5E2BCA3AB436D9701CC /* FaveButton.modulemap */,
+				9C2265E16E2FD284B1DE56A09CF0C260 /* FaveButton.xcconfig */,
+				E14111B81F0A81E261A25D45AD2FE24F /* FaveButton-dummy.m */,
+				4C6A0E5AC6C1892309B9B8572519839D /* FaveButton-prefix.pch */,
+				B5FFD9D9D3C9DC148E8F00E36BCB4615 /* FaveButton-umbrella.h */,
+				D61C3D553480B6B6BD7A4F7342B23265 /* Info.plist */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		F49326C7ED01A06909FA8868635BEE71 /* RevealingSplashView */ = {
-			isa = PBXGroup;
-			children = (
-				C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */,
-				D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */,
-				1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */,
-				ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */,
-				959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */,
-				0054B4167ECF9B4D249AE71E99E94715 /* Support Files */,
-			);
-			name = RevealingSplashView;
-			path = RevealingSplashView;
+			name = "Support Files";
+			path = "../Target Support Files/FaveButton";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		129F4B8C8E6498A6F4A02185A2CA622A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED6912108F965CE8FEC2E8AB56CA38C /* RevealingSplashView-umbrella.h in Headers */,
+				CCD75EC4E07A79C410172562C861289D /* RevealingSplashView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2405AF3738297DFA841559492118BA98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,26 +319,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2939E8559B6B6C1E63D79A1908AB64DD /* Headers */ = {
+		8F58D35B3C672AE71871DF8381F2B177 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C6D21AED4A3CD3082D1488A9F3DDD9 /* Pods-TwitSplit-umbrella.h in Headers */,
+				1FB70CB9F38313F0CA9E8D0CAE765AF8 /* FaveButton-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		45496460EA12FAD2C9C7AA9080019956 /* Headers */ = {
+		B00E3D72FBD1EA1BD0FD4679D7BB55D9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				153847F5BC1BC987222EC2AF5C7C9BC3 /* RevealingSplashView-umbrella.h in Headers */,
-				4FD1016155A05AE7957B98ADBDC9CE84 /* RevealingSplashView.h in Headers */,
+				054F36C6F3EA414AA7D819E99715E7F8 /* Pods-TwitSplit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		7C08227B6E14D87F0F5B0FD6DFFA1A3E /* FaveButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D715AEC5C8ED2BE2A239EC682DB79AAC /* Build configuration list for PBXNativeTarget "FaveButton" */;
+			buildPhases = (
+				491D24F8C192F27B69E7EDF6C2DB5101 /* Sources */,
+				A4AABADD637DCFF7421E1675ED73A6BB /* Frameworks */,
+				8F58D35B3C672AE71871DF8381F2B177 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaveButton;
+			productName = FaveButton;
+			productReference = B1BA97D404C680204FA029D8DFD5C0B3 /* FaveButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88EE6AAFF13B97E6ACEACFA863227BE7 /* RevealingSplashView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC0C0C0A286D0E2DDF0E35AD7D93508 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
+			buildPhases = (
+				DB5930DE70DA4D7F0D704F69D66FF5E3 /* Sources */,
+				7F546708A87620B8BF962A19E7EFA1CC /* Frameworks */,
+				129F4B8C8E6498A6F4A02185A2CA622A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevealingSplashView;
+			productName = RevealingSplashView;
+			productReference = D606FD3F0F9CADFEAD9233393D18AEF8 /* RevealingSplashView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		A7B4786F46ACD39582056244E30951A7 /* Pods-TwitSplitTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7677A86CE5D88BB81BC694C5DB3B3460 /* Build configuration list for PBXNativeTarget "Pods-TwitSplitTests" */;
@@ -271,42 +387,26 @@
 			);
 			name = "Pods-TwitSplitTests";
 			productName = "Pods-TwitSplitTests";
-			productReference = A3C220E3899429FCE3799E4B2EE15F58 /* Pods_TwitSplitTests.framework */;
+			productReference = 19DC7CD38EA29F8D3BACC1BA71E08B89 /* Pods_TwitSplitTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F7D6DFCD1AD65DB01A005678AC9E2517 /* RevealingSplashView */ = {
+		D9D4F802B3D8B5D49D88E7E3B5488823 /* Pods-TwitSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 26C883A826BBA35E8B847E14C7C88BC1 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
+			buildConfigurationList = A8B885A6D776CD75737016ACCF592353 /* Build configuration list for PBXNativeTarget "Pods-TwitSplit" */;
 			buildPhases = (
-				B891229D8AAF2DB49D4FC9F9CEBB0A6A /* Sources */,
-				127D0DE1F7C2C1A26680281D84B363D2 /* Frameworks */,
-				45496460EA12FAD2C9C7AA9080019956 /* Headers */,
+				D8FBF5795281422E46E652108255A2B8 /* Sources */,
+				849B192264D40FCAAEA0726259485A20 /* Frameworks */,
+				B00E3D72FBD1EA1BD0FD4679D7BB55D9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = RevealingSplashView;
-			productName = RevealingSplashView;
-			productReference = E8215073FFBCC9C17DA177E01CD49247 /* RevealingSplashView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FF84DEB9962CA8DBA09A06FB8263E9B9 /* Pods-TwitSplit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 901A5D51BDF68BDECD2CAD8B5C5E4B03 /* Build configuration list for PBXNativeTarget "Pods-TwitSplit" */;
-			buildPhases = (
-				D581FEE413123956B0A2E0F0C62A376A /* Sources */,
-				1F7EE0F7CADF2DC5CF8C8FCBF26F4E29 /* Frameworks */,
-				2939E8559B6B6C1E63D79A1908AB64DD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B07ED1F1EF1717C0A2776C7A4DCEF6F5 /* PBXTargetDependency */,
+				9A825A3FDE08AA663EE936F6042142D8 /* PBXTargetDependency */,
+				160320265EBF44832A66E8E3A03CB622 /* PBXTargetDependency */,
 			);
 			name = "Pods-TwitSplit";
 			productName = "Pods-TwitSplit";
-			productReference = 92971885CEC67A0881B5F320BD773455 /* Pods_TwitSplit.framework */;
+			productReference = 705E20C01B2BF995D750F091EC6F30B3 /* Pods_TwitSplit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -326,13 +426,14 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 563C016C2F42DAB02CFAD2474CF77FB5 /* Products */;
+			productRefGroup = 9BEDD731C2383F3A9CED65C17CD064B2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF84DEB9962CA8DBA09A06FB8263E9B9 /* Pods-TwitSplit */,
+				7C08227B6E14D87F0F5B0FD6DFFA1A3E /* FaveButton */,
+				D9D4F802B3D8B5D49D88E7E3B5488823 /* Pods-TwitSplit */,
 				A7B4786F46ACD39582056244E30951A7 /* Pods-TwitSplitTests */,
-				F7D6DFCD1AD65DB01A005678AC9E2517 /* RevealingSplashView */,
+				88EE6AAFF13B97E6ACEACFA863227BE7 /* RevealingSplashView */,
 			);
 		};
 /* End PBXProject section */
@@ -346,84 +447,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B891229D8AAF2DB49D4FC9F9CEBB0A6A /* Sources */ = {
+		491D24F8C192F27B69E7EDF6C2DB5101 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F62A345511DDCF559D8550D529989E3 /* Animations.swift in Sources */,
-				DAC841DA214EA26C1BEA7EE2BD92A4BC /* RevealingSplashView-dummy.m in Sources */,
-				2A9418D20FA95B6699D34BFE89AECF1C /* RevealingSplashView.swift in Sources */,
-				2A25E969A968035642294992E2956602 /* SplashAnimatable.swift in Sources */,
-				4A91F8F2D47B63CCB3B63384B3DB1B6B /* SplashAnimationType.swift in Sources */,
+				11231EDF58D9715E48688041F5775F35 /* Constraints+.swift in Sources */,
+				C57371AD4BBBE9FA5CBC57C151D9D0BE /* Easing.swift in Sources */,
+				36665F9CC301DA708DE1222320BD1E4A /* FaveButton-dummy.m in Sources */,
+				14C96683865769F6CA419276A30B1AEB /* FaveButton.swift in Sources */,
+				531408BF6C209461B4C07FFE7312E0F3 /* FaveIcon.swift in Sources */,
+				CDB1BAFEAB814C169438ED5DDFEEAB76 /* Geometry.swift in Sources */,
+				E7429B642F62D3F2F63A90887DEBDC12 /* Init.swift in Sources */,
+				CD17F739B45D4CF59EC659DF78F6BDB9 /* Ring.swift in Sources */,
+				5EF4F8BE943AC89E53090B7F0E03EED6 /* Spark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D581FEE413123956B0A2E0F0C62A376A /* Sources */ = {
+		D8FBF5795281422E46E652108255A2B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64A137A878A81C79BE1BFF89794D2D6A /* Pods-TwitSplit-dummy.m in Sources */,
+				5CC04A5794C0438D6B9B778438210144 /* Pods-TwitSplit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB5930DE70DA4D7F0D704F69D66FF5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C805D68C3BB432BE3167FF29D5B99348 /* Animations.swift in Sources */,
+				0F79A4A36D42D3BA5AE6DBB3467B09E1 /* RevealingSplashView-dummy.m in Sources */,
+				F064936F6DD28B943B37515419DA7DCC /* RevealingSplashView.swift in Sources */,
+				65E7CE87E0E31360500C4920F0580C08 /* SplashAnimatable.swift in Sources */,
+				5C2D12B5A0AE0132C86594FFD4561D6E /* SplashAnimationType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		160320265EBF44832A66E8E3A03CB622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RevealingSplashView;
+			target = 88EE6AAFF13B97E6ACEACFA863227BE7 /* RevealingSplashView */;
+			targetProxy = 32EF8394F5EA71BD9D4719D25AF13FE6 /* PBXContainerItemProxy */;
+		};
 		5B6BB7677A8525124B99201E53861026 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TwitSplit";
-			target = FF84DEB9962CA8DBA09A06FB8263E9B9 /* Pods-TwitSplit */;
+			target = D9D4F802B3D8B5D49D88E7E3B5488823 /* Pods-TwitSplit */;
 			targetProxy = 3829C05EB016597DF54E8599CCA60270 /* PBXContainerItemProxy */;
 		};
-		B07ED1F1EF1717C0A2776C7A4DCEF6F5 /* PBXTargetDependency */ = {
+		9A825A3FDE08AA663EE936F6042142D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = RevealingSplashView;
-			target = F7D6DFCD1AD65DB01A005678AC9E2517 /* RevealingSplashView */;
-			targetProxy = A3382D35F95D181208AFAA8B7FD21E38 /* PBXContainerItemProxy */;
+			name = FaveButton;
+			target = 7C08227B6E14D87F0F5B0FD6DFFA1A3E /* FaveButton */;
+			targetProxy = 6ABE1B6AD1C439C20C012A16AC95AF7F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		018994E1BC13618640C5B5780BCFE3B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC78C6065C473E24E6E9D18BC1D28C88 /* Pods-TwitSplit.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TwitSplit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TwitSplit/Pods-TwitSplit.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -482,46 +565,6 @@
 			};
 			name = Release;
 		};
-		238D2419879618D384BF3C1E363F57F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC18082C8513F09526E67C2124CAA67B /* Pods-TwitSplit.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TwitSplit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TwitSplit/Pods-TwitSplit.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		32956C446E8F64A837F9E8367B6612B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 59A062FFBC1DA6A905596D40843269E1 /* Pods-TwitSplitTests.release.xcconfig */;
@@ -561,9 +604,9 @@
 			};
 			name = Release;
 		};
-		3B4A2EF5CD27F7D3F654ACE0F783E5E6 /* Release */ = {
+		748C552F4D91C08BD50FD5DA4740A9E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */;
+			baseConfigurationReference = 9C2265E16E2FD284B1DE56A09CF0C260 /* FaveButton.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -574,8 +617,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FaveButton/FaveButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaveButton/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -583,46 +626,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
-				PRODUCT_MODULE_NAME = RevealingSplashView;
-				PRODUCT_NAME = RevealingSplashView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		46D8D6005DB5035F19253567D56BC59D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
-				PRODUCT_MODULE_NAME = RevealingSplashView;
-				PRODUCT_NAME = RevealingSplashView;
+				MODULEMAP_FILE = "Target Support Files/FaveButton/FaveButton.modulemap";
+				PRODUCT_MODULE_NAME = FaveButton;
+				PRODUCT_NAME = FaveButton;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -697,6 +703,196 @@
 			};
 			name = Debug;
 		};
+		8DD5969AA346CF9A290B82E955A44463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC18082C8513F09526E67C2124CAA67B /* Pods-TwitSplit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitSplit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitSplit/Pods-TwitSplit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		98487FDB3C21580F247CBC028F81A059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC78C6065C473E24E6E9D18BC1D28C88 /* Pods-TwitSplit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitSplit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitSplit/Pods-TwitSplit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6B8E414A4E1E70920A6C206EBB3FAE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBBB2ECA90E5E87C8645947629465B8 /* RevealingSplashView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_MODULE_NAME = RevealingSplashView;
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ABC3B96C2E0B6AABE0A584C72516E887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FBBB2ECA90E5E87C8645947629465B8 /* RevealingSplashView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_MODULE_NAME = RevealingSplashView;
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF09D37A4A96C283E6C382F35A85E400 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2265E16E2FD284B1DE56A09CF0C260 /* FaveButton.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FaveButton/FaveButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FaveButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FaveButton/FaveButton.modulemap";
+				PRODUCT_MODULE_NAME = FaveButton;
+				PRODUCT_NAME = FaveButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D1CC580937DE99F93B03B91103752130 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A4EF772FC1FD14C1043E5DB4CD7AC61 /* Pods-TwitSplitTests.debug.xcconfig */;
@@ -738,15 +934,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		26C883A826BBA35E8B847E14C7C88BC1 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				46D8D6005DB5035F19253567D56BC59D /* Debug */,
-				3B4A2EF5CD27F7D3F654ACE0F783E5E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -765,11 +952,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		901A5D51BDF68BDECD2CAD8B5C5E4B03 /* Build configuration list for PBXNativeTarget "Pods-TwitSplit" */ = {
+		A8B885A6D776CD75737016ACCF592353 /* Build configuration list for PBXNativeTarget "Pods-TwitSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				238D2419879618D384BF3C1E363F57F1 /* Debug */,
-				018994E1BC13618640C5B5780BCFE3B1 /* Release */,
+				8DD5969AA346CF9A290B82E955A44463 /* Debug */,
+				98487FDB3C21580F247CBC028F81A059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC0C0C0A286D0E2DDF0E35AD7D93508 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B8E414A4E1E70920A6C206EBB3FAE5 /* Debug */,
+				ABC3B96C2E0B6AABE0A584C72516E887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D715AEC5C8ED2BE2A239EC682DB79AAC /* Build configuration list for PBXNativeTarget "FaveButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748C552F4D91C08BD50FD5DA4740A9E6 /* Debug */,
+				BF09D37A4A96C283E6C382F35A85E400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

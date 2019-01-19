@@ -122,13 +122,16 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aad-IO-lGn" customClass="RoundedButton" customModule="TwitSplit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
                                         <color key="backgroundColor" red="0.11432010680437088" green="0.63154011964797974" blue="0.95243579149246216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <inset key="imageEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <inset key="imageEdgeInsets" minX="10" minY="10" maxX="10" maxY="10"/>
                                         <state key="normal" image="ic_create_tweet_white"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="27"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="newTweetAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G2N-VT-D6C"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -175,6 +178,99 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2018.4000000000001" y="132.68365817091455"/>
+        </scene>
+        <!--New Tweet View Controller-->
+        <scene sceneID="el9-K7-tlF">
+            <objects>
+                <viewController storyboardIdentifier="NewTweetViewController" id="PLW-DD-Nju" customClass="NewTweetViewController" customModule="TwitSplit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hzT-3s-hyB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPO-PH-28p">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WA9-7x-zzG">
+                                        <rect key="frame" x="8" y="0.0" width="44" height="44"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="44" id="nV4-lB-12e"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="12" minY="12" maxX="12" maxY="12"/>
+                                        <state key="normal" image="ic_close"/>
+                                        <connections>
+                                            <action selector="backAction:" destination="PLW-DD-Nju" eventType="touchUpInside" id="ocq-fi-yXK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AX-wF-0T1" customClass="RoundedButton" customModule="TwitSplit" customModuleProvider="target">
+                                        <rect key="frame" x="287" y="0.0" width="80" height="44"/>
+                                        <color key="backgroundColor" red="0.1143201068" green="0.63154011960000001" blue="0.95243579150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="3bk-rk-1OH"/>
+                                            <constraint firstAttribute="width" constant="80" id="SOO-tj-AHZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <state key="normal" title="Tweet">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="22"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="tweetNowAction:" destination="PLW-DD-Nju" eventType="touchUpInside" id="kjh-wx-3eN"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="8AX-wF-0T1" firstAttribute="centerY" secondItem="ZPO-PH-28p" secondAttribute="centerY" id="AWt-Te-85A"/>
+                                    <constraint firstAttribute="trailing" secondItem="8AX-wF-0T1" secondAttribute="trailing" constant="8" id="HWp-pL-ebQ"/>
+                                    <constraint firstAttribute="height" constant="44" id="ULS-0o-VV3"/>
+                                    <constraint firstItem="WA9-7x-zzG" firstAttribute="top" secondItem="ZPO-PH-28p" secondAttribute="top" id="ZSE-Ud-4DT"/>
+                                    <constraint firstAttribute="bottom" secondItem="WA9-7x-zzG" secondAttribute="bottom" id="kak-DV-6rE"/>
+                                    <constraint firstItem="WA9-7x-zzG" firstAttribute="leading" secondItem="ZPO-PH-28p" secondAttribute="leading" constant="8" id="xgi-hK-fge"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default_profile" translatesAutoresizingMaskIntoConstraints="NO" id="fbF-El-yI5" customClass="RoundedImageView" customModule="TwitSplit" customModuleProvider="target">
+                                <rect key="frame" x="16" y="72" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5E0-YN-WZY"/>
+                                    <constraint firstAttribute="width" constant="40" id="Mms-wK-AkE"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="izf-t6-PgT">
+                                <rect key="frame" x="64" y="72" width="295" height="579"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="izf-t6-PgT" firstAttribute="leading" secondItem="fbF-El-yI5" secondAttribute="trailing" constant="8" id="52U-pH-rK5"/>
+                            <constraint firstItem="VQy-7t-Swc" firstAttribute="trailing" secondItem="izf-t6-PgT" secondAttribute="trailing" constant="16" id="KZv-gT-TKG"/>
+                            <constraint firstItem="fbF-El-yI5" firstAttribute="leading" secondItem="VQy-7t-Swc" secondAttribute="leading" constant="16" id="NAJ-vf-Adg"/>
+                            <constraint firstItem="VQy-7t-Swc" firstAttribute="trailing" secondItem="ZPO-PH-28p" secondAttribute="trailing" id="PAM-Tv-omt"/>
+                            <constraint firstItem="VQy-7t-Swc" firstAttribute="bottom" secondItem="izf-t6-PgT" secondAttribute="bottom" constant="16" id="WZG-Y9-6Ea"/>
+                            <constraint firstItem="ZPO-PH-28p" firstAttribute="leading" secondItem="VQy-7t-Swc" secondAttribute="leading" id="iQe-Tf-gX3"/>
+                            <constraint firstItem="fbF-El-yI5" firstAttribute="top" secondItem="ZPO-PH-28p" secondAttribute="bottom" constant="8" id="m8A-9s-h7w"/>
+                            <constraint firstItem="izf-t6-PgT" firstAttribute="top" secondItem="ZPO-PH-28p" secondAttribute="bottom" constant="8" id="oso-Hr-cts"/>
+                            <constraint firstItem="ZPO-PH-28p" firstAttribute="top" secondItem="VQy-7t-Swc" secondAttribute="top" id="q3W-Fn-lhS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VQy-7t-Swc"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="w9u-dr-zgS"/>
+                    <connections>
+                        <outlet property="closeBtn" destination="WA9-7x-zzG" id="mqf-TI-drY"/>
+                        <outlet property="mainIV" destination="fbF-El-yI5" id="4u8-ka-v82"/>
+                        <outlet property="textView" destination="izf-t6-PgT" id="lxp-oo-1ce"/>
+                        <outlet property="tweetBtn" destination="8AX-wF-0T1" id="FLU-Ws-oh7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ige-L7-cNB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2837.5999999999999" y="132.68365817091455"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="3bj-fc-SA0">
@@ -342,6 +438,8 @@
         <image name="baseline_mail_outline_black_36pt" width="72" height="72"/>
         <image name="baseline_notifications_none_black_36pt" width="72" height="72"/>
         <image name="baseline_search_black_36pt" width="72" height="72"/>
+        <image name="default_profile" width="491.51998901367188" height="491.51998901367188"/>
+        <image name="ic_close" width="225" height="225"/>
         <image name="ic_create_tweet_white" width="300" height="300"/>
     </resources>
 </document>
