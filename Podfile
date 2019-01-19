@@ -7,7 +7,6 @@ target 'TwitSplit' do
 
   # Pods for TwitSplit
   pod 'RevealingSplashView'
-  pod 'FaveButton'
 
   target 'TwitSplitTests' do
     inherit! :search_paths

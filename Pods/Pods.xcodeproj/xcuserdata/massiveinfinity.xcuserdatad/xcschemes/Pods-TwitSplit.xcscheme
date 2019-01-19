@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9D4F802B3D8B5D49D88E7E3B5488823"
+               BlueprintIdentifier = "FF84DEB9962CA8DBA09A06FB8263E9B9"
                BuildableName = "Pods_TwitSplit.framework"
                BlueprintName = "Pods-TwitSplit"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D9D4F802B3D8B5D49D88E7E3B5488823"
+            BlueprintIdentifier = "FF84DEB9962CA8DBA09A06FB8263E9B9"
             BuildableName = "Pods_TwitSplit.framework"
             BlueprintName = "Pods-TwitSplit"
             ReferencedContainer = "container:Pods.xcodeproj">
