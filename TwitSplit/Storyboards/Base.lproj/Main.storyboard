@@ -13,31 +13,117 @@
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="TwitSplit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="030-fJ-1MM">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="197" id="adw-Nc-Xek">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="HomeTableViewCell" rowHeight="197" id="adw-Nc-Xek" customClass="HomeTableViewCell" customModule="TwitSplit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="197"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="adw-Nc-Xek" id="daD-gI-vTI">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="197"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GJK-tl-7Vr" customClass="RoundedImageView" customModule="TwitSplit" customModuleProvider="target">
+                                                    <rect key="frame" x="16" y="10" width="60" height="60"/>
+                                                    <color key="backgroundColor" red="0.7992209792137146" green="0.83842974901199341" blue="0.87298017740249634" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="60" id="WBg-oE-Zcm"/>
+                                                        <constraint firstAttribute="height" constant="60" id="d0z-wf-bdF"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                            <real key="value" value="30"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvU-tg-pEk">
+                                                    <rect key="frame" x="84" y="10" width="43" height="20.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20.5" id="B0y-Gs-XNZ"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="43" id="Rvn-B3-zN5"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8dZ-4P-Baw">
+                                                    <rect key="frame" x="0.0" y="196" width="375" height="1"/>
+                                                    <color key="backgroundColor" red="0.96078163385391235" green="0.96076661348342896" blue="0.96078532934188843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="2Oz-eF-TMp"/>
+                                                    </constraints>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWP-73-08u">
+                                                    <rect key="frame" x="84" y="38.5" width="275" height="87.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5D-UC-fGZ">
+                                                    <rect key="frame" x="135" y="10" width="224" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="8Ja-3w-FZf"/>
+                                                        <constraint firstAttribute="width" relation="lessThanOrEqual" constant="1000" id="9a9-gx-RT0"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b5P-ob-MjR">
+                                                    <rect key="frame" x="84" y="142" width="275" height="44"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="44" id="aQm-pm-VDp"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="bvU-tg-pEk" firstAttribute="leading" secondItem="GJK-tl-7Vr" secondAttribute="trailing" constant="8" id="6wg-H3-aNB"/>
+                                                <constraint firstAttribute="bottom" secondItem="8dZ-4P-Baw" secondAttribute="bottom" id="8Z2-qf-vvf"/>
+                                                <constraint firstItem="8dZ-4P-Baw" firstAttribute="top" secondItem="b5P-ob-MjR" secondAttribute="bottom" constant="10" id="Em6-zj-vmp"/>
+                                                <constraint firstItem="bvU-tg-pEk" firstAttribute="top" secondItem="daD-gI-vTI" secondAttribute="top" constant="10" id="GOX-7D-jev"/>
+                                                <constraint firstItem="EWP-73-08u" firstAttribute="leading" secondItem="GJK-tl-7Vr" secondAttribute="trailing" constant="8" id="ONu-Q0-85o"/>
+                                                <constraint firstAttribute="trailing" secondItem="8dZ-4P-Baw" secondAttribute="trailing" id="RA2-tQ-awC"/>
+                                                <constraint firstAttribute="trailing" secondItem="E5D-UC-fGZ" secondAttribute="trailing" constant="16" id="Rl3-sb-chb"/>
+                                                <constraint firstItem="b5P-ob-MjR" firstAttribute="top" secondItem="EWP-73-08u" secondAttribute="bottom" constant="16" id="S08-Sl-GgJ"/>
+                                                <constraint firstItem="GJK-tl-7Vr" firstAttribute="leading" secondItem="daD-gI-vTI" secondAttribute="leading" constant="16" id="Tcs-Z6-GpO"/>
+                                                <constraint firstItem="GJK-tl-7Vr" firstAttribute="top" secondItem="daD-gI-vTI" secondAttribute="top" constant="10" id="cz2-ZT-NQk"/>
+                                                <constraint firstItem="b5P-ob-MjR" firstAttribute="leading" secondItem="daD-gI-vTI" secondAttribute="leading" constant="84" id="gYI-By-m9A"/>
+                                                <constraint firstAttribute="trailing" secondItem="EWP-73-08u" secondAttribute="trailing" constant="16" id="hVm-gq-uuv"/>
+                                                <constraint firstAttribute="trailing" secondItem="b5P-ob-MjR" secondAttribute="trailing" constant="16" id="mCJ-PH-KoM"/>
+                                                <constraint firstItem="E5D-UC-fGZ" firstAttribute="top" secondItem="daD-gI-vTI" secondAttribute="top" constant="10" id="nVz-9C-Aa9"/>
+                                                <constraint firstItem="E5D-UC-fGZ" firstAttribute="leading" secondItem="bvU-tg-pEk" secondAttribute="trailing" constant="8" id="veV-Js-5db"/>
+                                                <constraint firstItem="8dZ-4P-Baw" firstAttribute="leading" secondItem="daD-gI-vTI" secondAttribute="leading" id="xBj-xe-jFP"/>
+                                                <constraint firstItem="EWP-73-08u" firstAttribute="top" secondItem="bvU-tg-pEk" secondAttribute="bottom" constant="8" id="xc0-IX-wLV"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="hashtagNameLbl" destination="E5D-UC-fGZ" id="rJ3-Ka-yd2"/>
+                                            <outlet property="mainIV" destination="GJK-tl-7Vr" id="NAm-ma-tA7"/>
+                                            <outlet property="messageLbl" destination="EWP-73-08u" id="29m-zL-cgH"/>
+                                            <outlet property="nameLbl" destination="bvU-tg-pEk" id="bzE-QL-QnQ"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="Seh-Bd-nhL"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="r8r-VE-sad"/>
+                                </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6eK-BS-wMC" customClass="RoundedView" customModule="TwitSplit" customModuleProvider="target">
                                 <rect key="frame" x="305" y="548" width="54" height="54"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aad-IO-lGn" customClass="RoundedButton" customModule="TwitSplit" customModuleProvider="target">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aad-IO-lGn" customClass="RoundedButton" customModule="TwitSplit" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="54" height="54"/>
                                         <color key="backgroundColor" red="0.11432010680437088" green="0.63154011964797974" blue="0.95243579149246216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="imageEdgeInsets" minX="8" minY="8" maxX="8" maxY="8"/>
+                                        <state key="normal" image="ic_create_tweet_white"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="27"/>
@@ -82,19 +168,25 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="gWp-kg-Yqh"/>
+                    <connections>
+                        <outlet property="tableView" destination="030-fJ-1MM" id="Ey6-vQ-U9M"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2018.4000000000001" y="132.68365817091455"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tab Bar View Controller-->
         <scene sceneID="3bj-fc-SA0">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="iUB-Yc-z33" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="iUB-Yc-z33" customClass="TabBarViewController" customModule="TwitSplit" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WFD-31-Y5I">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="WFD-31-Y5I">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.1143201068" green="0.63154011960000001" blue="0.95243579150000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="b9d-C4-PXF" kind="relationship" relationship="viewControllers" id="AT0-eQ-ad5"/>
@@ -111,13 +203,15 @@
         <scene sceneID="ejx-C5-it2">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b9d-C4-PXF" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" id="ghf-ZM-MxM">
+                    <tabBarItem key="tabBarItem" title="" image="baseline_home_black_36pt" id="ghf-ZM-MxM">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qYw-Dp-IpV">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -133,7 +227,7 @@
             <objects>
                 <viewController id="J84-qT-LLT" customClass="ViewController" customModule="TwitSplit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kvg-BG-4Vs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="dVr-cp-Qob"/>
@@ -148,13 +242,14 @@
         <scene sceneID="dvF-90-DjD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LPX-U7-ah2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" id="Ocf-JZ-PRA">
+                    <tabBarItem key="tabBarItem" title="" image="baseline_search_black_36pt" id="Ocf-JZ-PRA">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ov8-0o-Unt">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -170,7 +265,7 @@
             <objects>
                 <viewController id="Gbu-lB-Cz6" customClass="ViewController" customModule="TwitSplit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="awe-Wr-bcN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Hhu-gK-Isd"/>
@@ -185,13 +280,14 @@
         <scene sceneID="GLq-M9-XyR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3md-Fl-4iU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" id="4Tp-NW-cOG">
+                    <tabBarItem key="tabBarItem" title="" image="baseline_notifications_none_black_36pt" id="4Tp-NW-cOG">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="BuT-ji-ITK">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -207,7 +303,7 @@
             <objects>
                 <viewController id="a0R-6c-3am" customClass="ViewController" customModule="TwitSplit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hJH-sI-AdW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="jNj-xb-e1Z"/>
@@ -222,13 +318,14 @@
         <scene sceneID="ne6-xv-n9C">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HWr-3M-zV5" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" id="pHQ-qS-KvE">
+                    <tabBarItem key="tabBarItem" title="" image="baseline_mail_outline_black_36pt" id="pHQ-qS-KvE">
                         <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Epc-aT-09c">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -240,4 +337,11 @@
             <point key="canvasLocation" x="1078" y="2279"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="baseline_home_black_36pt" width="72" height="72"/>
+        <image name="baseline_mail_outline_black_36pt" width="72" height="72"/>
+        <image name="baseline_notifications_none_black_36pt" width="72" height="72"/>
+        <image name="baseline_search_black_36pt" width="72" height="72"/>
+        <image name="ic_create_tweet_white" width="300" height="300"/>
+    </resources>
 </document>

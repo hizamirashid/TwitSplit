@@ -10,6 +10,11 @@ import UIKit
 
 class HomeTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var mainIV: RoundedImageView!
+    @IBOutlet weak var nameLbl: UILabel!
+    @IBOutlet weak var hashtagNameLbl: UILabel!
+    @IBOutlet weak var messageLbl: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

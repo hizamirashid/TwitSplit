@@ -7,11 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153847F5BC1BC987222EC2AF5C7C9BC3 /* RevealingSplashView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34C93662F24725ABE0E8A668F5A69F22 /* RevealingSplashView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A25E969A968035642294992E2956602 /* SplashAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */; };
+		2A9418D20FA95B6699D34BFE89AECF1C /* RevealingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */; };
+		4A91F8F2D47B63CCB3B63384B3DB1B6B /* SplashAnimationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */; };
+		4FD1016155A05AE7957B98ADBDC9CE84 /* RevealingSplashView.h in Headers */ = {isa = PBXBuildFile; fileRef = D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64A137A878A81C79BE1BFF89794D2D6A /* Pods-TwitSplit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ED657F84CC490A5E27098D944EA596 /* Pods-TwitSplit-dummy.m */; };
+		720C1A00C092003AD7D805E15D864F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		75A244E753C3B4956CE838FA3FB591F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7EB3AB5774200E8112C8FAA75CE95F66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		976BFE9FF149BD43057CC60361EC8EF8 /* Pods-TwitSplit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ED657F84CC490A5E27098D944EA596 /* Pods-TwitSplit-dummy.m */; };
-		9DE3A5252EE977C7058AA40B68B14F50 /* Pods-TwitSplit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25159AB13FEE58572EF797A91FDA5A7F /* Pods-TwitSplit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85FEBA1BC29803256B64BA14C1BED5BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8F62A345511DDCF559D8550D529989E3 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */; };
+		A1C6D21AED4A3CD3082D1488A9F3DDD9 /* Pods-TwitSplit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25159AB13FEE58572EF797A91FDA5A7F /* Pods-TwitSplit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1E687A05A32CD17261A89A420B0FF1C /* Pods-TwitSplitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DAB38708F9F435DC11377FA79177B6 /* Pods-TwitSplitTests-dummy.m */; };
+		DAC841DA214EA26C1BEA7EE2BD92A4BC /* RevealingSplashView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24D681A8C56799B4587C4B71184D93AB /* RevealingSplashView-dummy.m */; };
 		FECFE89EC203D262A83EBCF6F8369D0A /* Pods-TwitSplitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C2624BEA36B1650340D836027792415 /* Pods-TwitSplitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -20,17 +28,29 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 42DD78DA98227348D7143E149DF63A42;
+			remoteGlobalIDString = FF84DEB9962CA8DBA09A06FB8263E9B9;
 			remoteInfo = "Pods-TwitSplit";
+		};
+		A3382D35F95D181208AFAA8B7FD21E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D6DFCD1AD65DB01A005678AC9E2517;
+			remoteInfo = RevealingSplashView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01086F823C4951ED5239A5FDBD8E4997 /* RevealingSplashView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-prefix.pch"; sourceTree = "<group>"; };
+		1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RevealingSplashView.xcconfig; sourceTree = "<group>"; };
 		19491CDA17CA4D32AED29FEE5DD0B689 /* Pods-TwitSplitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitSplitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RevealingSplashView.swift; path = RevealingSplashView/RevealingSplashView.swift; sourceTree = "<group>"; };
+		24D681A8C56799B4587C4B71184D93AB /* RevealingSplashView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RevealingSplashView-dummy.m"; sourceTree = "<group>"; };
 		25159AB13FEE58572EF797A91FDA5A7F /* Pods-TwitSplit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitSplit-umbrella.h"; sourceTree = "<group>"; };
 		25DAB38708F9F435DC11377FA79177B6 /* Pods-TwitSplitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitSplitTests-dummy.m"; sourceTree = "<group>"; };
 		2C743BCA5982A9DEF97C0E0D50E158F1 /* Pods-TwitSplit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitSplit.modulemap"; sourceTree = "<group>"; };
 		2D3443352BDD50252446F7B5A457072C /* Pods-TwitSplit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitSplit-frameworks.sh"; sourceTree = "<group>"; };
+		34C93662F24725ABE0E8A668F5A69F22 /* RevealingSplashView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RevealingSplashView-umbrella.h"; sourceTree = "<group>"; };
 		3D6928528D9DCEF8034CDA84DDE8CA42 /* Pods-TwitSplit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitSplit-acknowledgements.plist"; sourceTree = "<group>"; };
 		4D336951683562182FD09C03F32EA7B7 /* Pods-TwitSplitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitSplitTests-resources.sh"; sourceTree = "<group>"; };
 		59A062FFBC1DA6A905596D40843269E1 /* Pods-TwitSplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitSplitTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -38,21 +58,44 @@
 		5A4EF772FC1FD14C1043E5DB4CD7AC61 /* Pods-TwitSplitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitSplitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C2624BEA36B1650340D836027792415 /* Pods-TwitSplitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TwitSplitTests-umbrella.h"; sourceTree = "<group>"; };
 		71642534ED480B64D33ABFF2669F9049 /* Pods-TwitSplit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitSplit-resources.sh"; sourceTree = "<group>"; };
+		8734D4FE66E58214B374BD0E5417703A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A50FC82930636FE6C812568DE776A30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92971885CEC67A0881B5F320BD773455 /* Pods_TwitSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitSplit.framework; path = "Pods-TwitSplit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimationType.swift; path = RevealingSplashView/SplashAnimationType.swift; sourceTree = "<group>"; };
+		A3C220E3899429FCE3799E4B2EE15F58 /* Pods_TwitSplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitSplitTests.framework; path = "Pods-TwitSplitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9ED657F84CC490A5E27098D944EA596 /* Pods-TwitSplit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TwitSplit-dummy.m"; sourceTree = "<group>"; };
 		AC18082C8513F09526E67C2124CAA67B /* Pods-TwitSplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitSplit.debug.xcconfig"; sourceTree = "<group>"; };
 		BC78C6065C473E24E6E9D18BC1D28C88 /* Pods-TwitSplit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TwitSplit.release.xcconfig"; sourceTree = "<group>"; };
-		BDEF4259C6506986CCFF769956BFD6F8 /* Pods_TwitSplitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitSplitTests.framework; path = "Pods-TwitSplitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD04EDFC249D44E9077F401342E8A340 /* RevealingSplashView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RevealingSplashView.modulemap; sourceTree = "<group>"; };
+		C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animations.swift; path = RevealingSplashView/Animations.swift; sourceTree = "<group>"; };
+		D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RevealingSplashView.h; path = RevealingSplashView/RevealingSplashView.h; sourceTree = "<group>"; };
 		E7E74F098839A4C8863D893EFAB45B1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8215073FFBCC9C17DA177E01CD49247 /* RevealingSplashView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RevealingSplashView.framework; path = RevealingSplashView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA469B803EB6B61ABC418F05202600BE /* Pods-TwitSplitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TwitSplitTests.modulemap"; sourceTree = "<group>"; };
+		ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SplashAnimatable.swift; path = RevealingSplashView/SplashAnimatable.swift; sourceTree = "<group>"; };
 		EF14DBC3638FEBC3FFF74CACE7CC973C /* Pods-TwitSplitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TwitSplitTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFC097BCC5BF4E5DE514CCC4F8B190BC /* Pods_TwitSplit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TwitSplit.framework; path = "Pods-TwitSplit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F799D4FEBB3FA362926EF65D5041A4F5 /* Pods-TwitSplit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TwitSplit-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F9B08CACB929001C31DD092755CD160C /* Pods-TwitSplitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TwitSplitTests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		127D0DE1F7C2C1A26680281D84B363D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85FEBA1BC29803256B64BA14C1BED5BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7EE0F7CADF2DC5CF8C8FCBF26F4E29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720C1A00C092003AD7D805E15D864F37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		37065F11515C33FA2CC0FA893A48CA78 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,17 +104,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DA6527F1C6D2364DCF2AF67DA6A9E67 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7EB3AB5774200E8112C8FAA75CE95F66 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0054B4167ECF9B4D249AE71E99E94715 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8734D4FE66E58214B374BD0E5417703A /* Info.plist */,
+				BD04EDFC249D44E9077F401342E8A340 /* RevealingSplashView.modulemap */,
+				1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */,
+				24D681A8C56799B4587C4B71184D93AB /* RevealingSplashView-dummy.m */,
+				01086F823C4951ED5239A5FDBD8E4997 /* RevealingSplashView-prefix.pch */,
+				34C93662F24725ABE0E8A668F5A69F22 /* RevealingSplashView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RevealingSplashView";
+			sourceTree = "<group>";
+		};
 		23BB3881EEB8B8F19F63CBD9ABCC1DBD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +146,16 @@
 			);
 			name = "Pods-TwitSplit";
 			path = "Target Support Files/Pods-TwitSplit";
+			sourceTree = "<group>";
+		};
+		563C016C2F42DAB02CFAD2474CF77FB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92971885CEC67A0881B5F320BD773455 /* Pods_TwitSplit.framework */,
+				A3C220E3899429FCE3799E4B2EE15F58 /* Pods_TwitSplitTests.framework */,
+				E8215073FFBCC9C17DA177E01CD49247 /* RevealingSplashView.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -130,7 +189,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				CA650AA5DCEB89DFC748680E6886C43A /* Products */,
+				D91FEAE70316EE8A91F65526A35FC97E /* Pods */,
+				563C016C2F42DAB02CFAD2474CF77FB5 /* Products */,
 				23BB3881EEB8B8F19F63CBD9ABCC1DBD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -143,13 +203,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CA650AA5DCEB89DFC748680E6886C43A /* Products */ = {
+		D91FEAE70316EE8A91F65526A35FC97E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EFC097BCC5BF4E5DE514CCC4F8B190BC /* Pods_TwitSplit.framework */,
-				BDEF4259C6506986CCFF769956BFD6F8 /* Pods_TwitSplitTests.framework */,
+				F49326C7ED01A06909FA8868635BEE71 /* RevealingSplashView */,
 			);
-			name = Products;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F49326C7ED01A06909FA8868635BEE71 /* RevealingSplashView */ = {
+			isa = PBXGroup;
+			children = (
+				C77BEC39A4D7866A6DC4FAE719323EDB /* Animations.swift */,
+				D38B966E01071A170C6A4D58410F40FF /* RevealingSplashView.h */,
+				1F947FC524F821E881A8A06956A2AB47 /* RevealingSplashView.swift */,
+				ED0FB8A98D30F65F9E585D669967BC1E /* SplashAnimatable.swift */,
+				959AF827D9130EFC6696B3131DEE28ED /* SplashAnimationType.swift */,
+				0054B4167ECF9B4D249AE71E99E94715 /* Support Files */,
+			);
+			name = RevealingSplashView;
+			path = RevealingSplashView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,34 +236,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		597E721C914ABC0E4D2C6000B3454FA3 /* Headers */ = {
+		2939E8559B6B6C1E63D79A1908AB64DD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE3A5252EE977C7058AA40B68B14F50 /* Pods-TwitSplit-umbrella.h in Headers */,
+				A1C6D21AED4A3CD3082D1488A9F3DDD9 /* Pods-TwitSplit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45496460EA12FAD2C9C7AA9080019956 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153847F5BC1BC987222EC2AF5C7C9BC3 /* RevealingSplashView-umbrella.h in Headers */,
+				4FD1016155A05AE7957B98ADBDC9CE84 /* RevealingSplashView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		42DD78DA98227348D7143E149DF63A42 /* Pods-TwitSplit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E8AFE55C6F8D06CEBB877C7ECCBE804 /* Build configuration list for PBXNativeTarget "Pods-TwitSplit" */;
-			buildPhases = (
-				5A322EE6A9D3BD302641CA60822DAE5D /* Sources */,
-				7DA6527F1C6D2364DCF2AF67DA6A9E67 /* Frameworks */,
-				597E721C914ABC0E4D2C6000B3454FA3 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-TwitSplit";
-			productName = "Pods-TwitSplit";
-			productReference = EFC097BCC5BF4E5DE514CCC4F8B190BC /* Pods_TwitSplit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A7B4786F46ACD39582056244E30951A7 /* Pods-TwitSplitTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7677A86CE5D88BB81BC694C5DB3B3460 /* Build configuration list for PBXNativeTarget "Pods-TwitSplitTests" */;
@@ -206,7 +271,42 @@
 			);
 			name = "Pods-TwitSplitTests";
 			productName = "Pods-TwitSplitTests";
-			productReference = BDEF4259C6506986CCFF769956BFD6F8 /* Pods_TwitSplitTests.framework */;
+			productReference = A3C220E3899429FCE3799E4B2EE15F58 /* Pods_TwitSplitTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7D6DFCD1AD65DB01A005678AC9E2517 /* RevealingSplashView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26C883A826BBA35E8B847E14C7C88BC1 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */;
+			buildPhases = (
+				B891229D8AAF2DB49D4FC9F9CEBB0A6A /* Sources */,
+				127D0DE1F7C2C1A26680281D84B363D2 /* Frameworks */,
+				45496460EA12FAD2C9C7AA9080019956 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevealingSplashView;
+			productName = RevealingSplashView;
+			productReference = E8215073FFBCC9C17DA177E01CD49247 /* RevealingSplashView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF84DEB9962CA8DBA09A06FB8263E9B9 /* Pods-TwitSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 901A5D51BDF68BDECD2CAD8B5C5E4B03 /* Build configuration list for PBXNativeTarget "Pods-TwitSplit" */;
+			buildPhases = (
+				D581FEE413123956B0A2E0F0C62A376A /* Sources */,
+				1F7EE0F7CADF2DC5CF8C8FCBF26F4E29 /* Frameworks */,
+				2939E8559B6B6C1E63D79A1908AB64DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B07ED1F1EF1717C0A2776C7A4DCEF6F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-TwitSplit";
+			productName = "Pods-TwitSplit";
+			productReference = 92971885CEC67A0881B5F320BD773455 /* Pods_TwitSplit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -226,12 +326,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CA650AA5DCEB89DFC748680E6886C43A /* Products */;
+			productRefGroup = 563C016C2F42DAB02CFAD2474CF77FB5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				42DD78DA98227348D7143E149DF63A42 /* Pods-TwitSplit */,
+				FF84DEB9962CA8DBA09A06FB8263E9B9 /* Pods-TwitSplit */,
 				A7B4786F46ACD39582056244E30951A7 /* Pods-TwitSplitTests */,
+				F7D6DFCD1AD65DB01A005678AC9E2517 /* RevealingSplashView */,
 			);
 		};
 /* End PBXProject section */
@@ -245,11 +346,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A322EE6A9D3BD302641CA60822DAE5D /* Sources */ = {
+		B891229D8AAF2DB49D4FC9F9CEBB0A6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				976BFE9FF149BD43057CC60361EC8EF8 /* Pods-TwitSplit-dummy.m in Sources */,
+				8F62A345511DDCF559D8550D529989E3 /* Animations.swift in Sources */,
+				DAC841DA214EA26C1BEA7EE2BD92A4BC /* RevealingSplashView-dummy.m in Sources */,
+				2A9418D20FA95B6699D34BFE89AECF1C /* RevealingSplashView.swift in Sources */,
+				2A25E969A968035642294992E2956602 /* SplashAnimatable.swift in Sources */,
+				4A91F8F2D47B63CCB3B63384B3DB1B6B /* SplashAnimationType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D581FEE413123956B0A2E0F0C62A376A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A137A878A81C79BE1BFF89794D2D6A /* Pods-TwitSplit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,12 +372,58 @@
 		5B6BB7677A8525124B99201E53861026 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-TwitSplit";
-			target = 42DD78DA98227348D7143E149DF63A42 /* Pods-TwitSplit */;
+			target = FF84DEB9962CA8DBA09A06FB8263E9B9 /* Pods-TwitSplit */;
 			targetProxy = 3829C05EB016597DF54E8599CCA60270 /* PBXContainerItemProxy */;
+		};
+		B07ED1F1EF1717C0A2776C7A4DCEF6F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RevealingSplashView;
+			target = F7D6DFCD1AD65DB01A005678AC9E2517 /* RevealingSplashView */;
+			targetProxy = A3382D35F95D181208AFAA8B7FD21E38 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		018994E1BC13618640C5B5780BCFE3B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC78C6065C473E24E6E9D18BC1D28C88 /* Pods-TwitSplit.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TwitSplit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TwitSplit/Pods-TwitSplit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -323,9 +482,9 @@
 			};
 			name = Release;
 		};
-		208102CC9C1C21BA2387E58A8CE29320 /* Release */ = {
+		238D2419879618D384BF3C1E363F57F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC78C6065C473E24E6E9D18BC1D28C88 /* Pods-TwitSplit.release.xcconfig */;
+			baseConfigurationReference = AC18082C8513F09526E67C2124CAA67B /* Pods-TwitSplit.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -355,12 +514,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		32956C446E8F64A837F9E8367B6612B6 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -401,12 +561,10 @@
 			};
 			name = Release;
 		};
-		3B69342DFA089ACA48FE82E3B8FF8FDC /* Debug */ = {
+		3B4A2EF5CD27F7D3F654ACE0F783E5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC18082C8513F09526E67C2124CAA67B /* Pods-TwitSplit.debug.xcconfig */;
+			baseConfigurationReference = 1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -416,23 +574,60 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TwitSplit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TwitSplit/Pods-TwitSplit.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_MODULE_NAME = RevealingSplashView;
+				PRODUCT_NAME = RevealingSplashView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46D8D6005DB5035F19253567D56BC59D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1470B2E48B5C18B42D1E864E512A914D /* RevealingSplashView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RevealingSplashView/RevealingSplashView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RevealingSplashView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RevealingSplashView/RevealingSplashView.modulemap";
+				PRODUCT_MODULE_NAME = RevealingSplashView;
+				PRODUCT_NAME = RevealingSplashView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -543,6 +738,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		26C883A826BBA35E8B847E14C7C88BC1 /* Build configuration list for PBXNativeTarget "RevealingSplashView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D8D6005DB5035F19253567D56BC59D /* Debug */,
+				3B4A2EF5CD27F7D3F654ACE0F783E5E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -552,20 +756,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E8AFE55C6F8D06CEBB877C7ECCBE804 /* Build configuration list for PBXNativeTarget "Pods-TwitSplit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B69342DFA089ACA48FE82E3B8FF8FDC /* Debug */,
-				208102CC9C1C21BA2387E58A8CE29320 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		7677A86CE5D88BB81BC694C5DB3B3460 /* Build configuration list for PBXNativeTarget "Pods-TwitSplitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1CC580937DE99F93B03B91103752130 /* Debug */,
 				32956C446E8F64A837F9E8367B6612B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		901A5D51BDF68BDECD2CAD8B5C5E4B03 /* Build configuration list for PBXNativeTarget "Pods-TwitSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238D2419879618D384BF3C1E363F57F1 /* Debug */,
+				018994E1BC13618640C5B5780BCFE3B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
