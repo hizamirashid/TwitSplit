@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TwitSplit/Classes/Controllers/Home/NewTweetViewController.swift"
-            timestampString = "569659703.508067"
+            timestampString = "569661833.413271"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TwitSplit/Classes/Helpers/SplitMessageHelper.swift"
-            timestampString = "569659703.508163"
+            timestampString = "569661833.413363"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "SplitMessage(stringToBeSplitted:By:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TwitSplit/Classes/Helpers/SplitMessageHelper.swift"
-            timestampString = "569659703.5085419"
+            timestampString = "569661833.413424"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "93"
-            endingLineNumber = "93"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "SplitMessage(stringToBeSplitted:By:)"
             landmarkType = "7">
          </BreakpointContent>
