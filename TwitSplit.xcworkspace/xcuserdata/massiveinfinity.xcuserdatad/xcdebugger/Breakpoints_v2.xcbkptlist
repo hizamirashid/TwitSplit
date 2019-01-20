@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TwitSplit/Classes/Controllers/Home/NewTweetViewController.swift"
-            timestampString = "569656918.318712"
+            timestampString = "569658559.007646"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
             landmarkName = "tweetNowAction(_:)"
             landmarkType = "7">
          </BreakpointContent>

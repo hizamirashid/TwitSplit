@@ -58,6 +58,7 @@ class NewTweetViewController: UIViewController {
                 
                 self.delegate?.passDataFromNewTweetDelegate(data: [message])
                 self.dismiss(animated: true, completion: nil)
+                return
             }
             
             
