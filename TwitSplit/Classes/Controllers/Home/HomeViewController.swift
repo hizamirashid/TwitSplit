@@ -32,7 +32,21 @@ class HomeViewController: UIViewController {
     }
     
     func initUI() {
-        
+        self.setUpUI()
+    }
+    
+    // setup image on left side of navigation bar
+    func setUpUI() {
+        let logoImage = UIImage.init(named: "default_profile")
+        let logoImageView = UIImageView.init(image: logoImage)
+        logoImageView.frame = CGRect(x:0.0,y:0.0, width:30,height:30)
+        logoImageView.contentMode = .scaleAspectFit
+        let imageItem = UIBarButtonItem.init(customView: logoImageView)
+        let widthConstraint = logoImageView.widthAnchor.constraint(equalToConstant: 30)
+        let heightConstraint = logoImageView.heightAnchor.constraint(equalToConstant: 30)
+        heightConstraint.isActive = true
+        widthConstraint.isActive = true
+        navigationItem.leftBarButtonItem =  imageItem
     }
     
     // MARK: - Actions

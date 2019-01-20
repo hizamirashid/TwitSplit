@@ -19,6 +19,7 @@
 		0DC5120C21F2E3CD00BB2D71 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5120B21F2E3CD00BB2D71 /* HomeTableViewCell.swift */; };
 		0DC5120F21F2F63200BB2D71 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5120E21F2F63200BB2D71 /* TabBarViewController.swift */; };
 		0DC5121121F2FCDB00BB2D71 /* NewTweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5121021F2FCDB00BB2D71 /* NewTweetViewController.swift */; };
+		0DC5121321F4443D00BB2D71 /* SplitMessageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5121221F4443D00BB2D71 /* SplitMessageHelper.swift */; };
 		A8D7D5B0482892FBA698BE89 /* Pods_TwitSplitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC3DA43C792B4E9EFCB5CAF /* Pods_TwitSplitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		0DC5120B21F2E3CD00BB2D71 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
 		0DC5120E21F2F63200BB2D71 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		0DC5121021F2FCDB00BB2D71 /* NewTweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTweetViewController.swift; sourceTree = "<group>"; };
+		0DC5121221F4443D00BB2D71 /* SplitMessageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitMessageHelper.swift; sourceTree = "<group>"; };
 		3EC7DAF8BA8C5088EA90532E /* Pods-TwitSplitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplitTests/Pods-TwitSplitTests.release.xcconfig"; sourceTree = "<group>"; };
 		43ECF2F028940B0F3EC2AE7C /* Pods-TwitSplitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplitTests/Pods-TwitSplitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46C19FEA9BCB00351DC96D8C /* Pods-TwitSplit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwitSplit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwitSplit/Pods-TwitSplit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			children = (
 				0DC5120221F0486B00BB2D71 /* Extensions.swift */,
 				0DC5120421F048FA00BB2D71 /* Constants.swift */,
+				0DC5121221F4443D00BB2D71 /* SplitMessageHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				0DC5120C21F2E3CD00BB2D71 /* HomeTableViewCell.swift in Sources */,
 				0DC5121121F2FCDB00BB2D71 /* NewTweetViewController.swift in Sources */,
 				0DC5120321F0486B00BB2D71 /* Extensions.swift in Sources */,
+				0DC5121321F4443D00BB2D71 /* SplitMessageHelper.swift in Sources */,
 				0DC5120521F048FA00BB2D71 /* Constants.swift in Sources */,
 				0DC5120F21F2F63200BB2D71 /* TabBarViewController.swift in Sources */,
 				0DC5120821F2E30000BB2D71 /* HomeViewController.swift in Sources */,

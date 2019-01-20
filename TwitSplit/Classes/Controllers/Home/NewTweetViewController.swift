@@ -53,7 +53,6 @@ class NewTweetViewController: UIViewController {
         }
         
         if let hasWhiteSpace = message.rangeOfCharacter(from: CharacterSet.whitespaces) {
-            let msg = "I can't believe Tweeter now supports chunking my messages, so I don't have to do it myself."
             
             if message.count <= 50 {
                 
@@ -62,25 +61,8 @@ class NewTweetViewController: UIViewController {
             }
             
             
-            let splittedString = SplitMessage(stringToBeSplitted: message, By: 46) // why?? split by 46 only? because we need to add 4 more character="1/2 " to the splitted string which make the total character is 50.
+            let arrayOfString = SplitMessageHelper.SplitMessage(stringToBeSplitted: message, By: 46) // why?? split by 46 only? because we need to add 4 more character="1/2 " to the splitted string which make the total character is 50.
 
-            var arrayOfString: [String] = []
-            var strings = ""
-            for item in splittedString {
-                print(item)
-                for stringArray in item {
-                    for string in stringArray {
-                        strings.append(string)
-                    }
-                }
-                
-                arrayOfString.append(strings)
-                strings = ""
-            }
-            
-            print(arrayOfString)
-            arrayOfString.reverse()
-            
             self.delegate?.passDataFromNewTweetDelegate(data: arrayOfString)
             self.dismiss(animated: true, completion: nil)
         }
@@ -91,74 +73,4 @@ class NewTweetViewController: UIViewController {
         
     }
     
-}
-
-
-extension NewTweetViewController {
-    
-    // MARK: - Functions
-    func SplitMessage(stringToBeSplitted:String, By:Int) -> [[[String]]]
-    {
-        var newArray : [[String]] = []
-        var totalSplittedArray : [[[String]]] = []
-        var tempString : [String] = []
-        var totalString = 0
-        var total = 0
-        
-        for char in stringToBeSplitted {
-            
-            totalString += 1
-            
-            if char == " " {
-                tempString.append(String(char))
-                newArray.append(tempString)
-                
-                let count = tempString.count
-                total += count
-                
-                tempString = []
-                
-            } else {
-                tempString.append(String(char))
-                
-            }
-            
-            print(total)
-            
-            if total == By {
-                print(newArray)
-                totalSplittedArray.append(newArray)
-                newArray = []
-                total = 0
-                
-            } else if total > 46 {
-                
-                let lastStringArray = newArray.last
-                
-                // remove last array from current array
-                newArray.removeLast()
-                
-                // add array into totalSplittedArray
-                totalSplittedArray.append(newArray)
-                
-                // put last array into the new array
-                newArray = []
-                newArray.append(lastStringArray!)
-                total = (lastStringArray?.count)!
-                
-            } else if totalString == stringToBeSplitted.count {
-                newArray.append(tempString)
-                totalSplittedArray.append(newArray)
-            }
-            
-        }
-        
-        for i in 1...totalSplittedArray.count {
-            
-            let index = i-1
-            totalSplittedArray[index].insert(["\(i)/\(totalSplittedArray.count) "], at: 0)
-        }
-        
-        return totalSplittedArray
-    }
 }
