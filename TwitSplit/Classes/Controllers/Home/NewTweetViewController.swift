@@ -54,7 +54,15 @@ class NewTweetViewController: UIViewController {
         
         if let hasWhiteSpace = message.rangeOfCharacter(from: CharacterSet.whitespaces) {
             let msg = "I can't believe Tweeter now supports chunking my messages, so I don't have to do it myself."
-            let splittedString = SplitString(stringToBeSplitted: message, By: 46) // why?? split by 46 only? because we need to add 4 more character="1/2 " to the splitted string which make the total character is 50.
+            
+            if message.count <= 50 {
+                
+                self.delegate?.passDataFromNewTweetDelegate(data: [message])
+                self.dismiss(animated: true, completion: nil)
+            }
+            
+            
+            let splittedString = SplitMessage(stringToBeSplitted: message, By: 46) // why?? split by 46 only? because we need to add 4 more character="1/2 " to the splitted string which make the total character is 50.
 
             var arrayOfString: [String] = []
             var strings = ""
@@ -78,6 +86,7 @@ class NewTweetViewController: UIViewController {
         }
         else {
             print("String has no whitespace")
+            self.showErrorAlert(message: "Message has no whitespace")
         }
         
     }
@@ -88,7 +97,7 @@ class NewTweetViewController: UIViewController {
 extension NewTweetViewController {
     
     // MARK: - Functions
-    func SplitString(stringToBeSplitted:String, By:Int) -> [[[String]]]
+    func SplitMessage(stringToBeSplitted:String, By:Int) -> [[[String]]]
     {
         var newArray : [[String]] = []
         var totalSplittedArray : [[[String]]] = []
