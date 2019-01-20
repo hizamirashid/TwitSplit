@@ -61,7 +61,27 @@ class SplitMessageHelper {
                 total = (lastStringArray?.count)!
                 
             } else if totalString == stringToBeSplitted.count {
+                
+                let count = tempString.count
+                total += count
+                
                 newArray.append(tempString)
+                
+                if total > 46 {
+                    let lastStringArray = newArray.last
+                    
+                    // remove last array from current array
+                    newArray.removeLast()
+                    
+                    // add array into totalSplittedArray
+                    totalSplittedArray.append(newArray)
+                    
+                    // put last array into the new array
+                    newArray = []
+                    newArray.append(lastStringArray!)
+                    total = (lastStringArray?.count)!
+                }
+                
                 totalSplittedArray.append(newArray)
             }
             
